@@ -24,7 +24,7 @@ module.exports = function EnviaEmail(obj) {
     to: para,
     subject: asunto,
     html: msg
-      //"<h1>Esto es Una prueba. No te alarmes.</h1><br><p>Ahora que tengo tu atencion, por favor doname pizza 🍕 :(</p>",
+      //"<h1 style="color:red">Esto es Una prueba. No te alarmes.</h1><br><h2>Ahora que tengo tu atencion, por favor doname pizza 🍕 :(</h2>",
   };
 
   mailTransporter.sendMail(mailDetails, (err, data) => {
