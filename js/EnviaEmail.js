@@ -3,7 +3,7 @@ module.exports = function EnviaEmail(obj) {
   //constantes por favor esconder
   const tipoEmail = "gmail";
   const de = "smpttestalejo@gmail.com";
-  const pwd = "ThisIsATest.net";
+  const pwd = "";
   //variables
   const para = obj.para;
   const asunto = obj.asunto;
